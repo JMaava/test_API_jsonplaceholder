@@ -1,6 +1,5 @@
 import pytest
 from unittest.mock import Mock
-from schemas.post_schema import Post
 
 
 def test_create_post(base_url, http_client):
